@@ -17,7 +17,7 @@ clean = df[[x_col, y_col]].dropna()
 
 # Create scatter plot
 plt.figure()
-plt.scatter(clean[x_col], clean[y_col])
+plt.scatter(clean[x_col], clean[y_col], color="pink", edgecolors = "hotpink", s=100)
 
 plt.xlabel("Total Completion Time (seconds)")
 plt.ylabel("Block Design Score")
