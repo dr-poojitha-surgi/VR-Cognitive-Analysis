@@ -13,7 +13,6 @@ print("rho =", round(rho, 2))
 print("p-value =", round(p_value, 3))
 
 # APA Formatting
-# ------------------------------------------------
 
 # Format p-value correctly
 if p_value < 0.001:
